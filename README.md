@@ -38,8 +38,8 @@ pip install pycryptodome
 ## File Structure
 ```
 /MP3StegoTool
-│── mp3_enc.py      # Script to hide messages in an MP3 file
-│── mp3_dec.py      # Script to extract hidden messages
+│── enc.py      # Script to hide messages in an MP3 file
+│── dec.py      # Script to extract hidden messages
 │── music.mp3       # Original MP3 file
 │── hidden_music.mp3# MP3 file with the hidden message
 │── message.txt     # Text file containing the secret message
